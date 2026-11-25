@@ -16,5 +16,5 @@ export const CTA_URLS = {
 export type ServiceSlug = keyof typeof CTA_URLS;
 
 /** 검색엔진 소유 확인 코드(네이버 서치어드바이저, 구글 서치 콘솔). 받은 content 값만 넣으세요. */
-export const NAVER_SITE_VERIFICATION = "";
+export const NAVER_SITE_VERIFICATION = "2855de3cb6098e1998e8c7eed2ffe7bf7ce5eb39";
 export const GOOGLE_SITE_VERIFICATION = "LglMaYLzS6dacAPQ5ZgZdPgzdtfLbp_1Rk5vh3WNPlM";
