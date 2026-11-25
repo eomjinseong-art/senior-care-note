@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
   description,
   keywords: ["고독사 특수청소", "유품정리", "요양원 입소 후 집 정리", "철거 견적", "병원 동행 매니저", "노인돌봄 생활지원사", "시니어 돌봄", "부모님 집 정리"],
-  openGraph: { type: "website", locale: "ko_KR", url: SITE_URL, siteName: SITE_NAME, title: SITE_NAME, description },
-  twitter: { card: "summary", title: SITE_NAME, description },
+  openGraph: { type: "website", locale: "ko_KR", url: SITE_URL, siteName: SITE_NAME, title: SITE_NAME, description, images: ["/opengraph-image"] },
+  twitter: { card: "summary_large_image", title: SITE_NAME, description, images: ["/opengraph-image"] },
   verification,
   robots: { index: true, follow: true },
 };
