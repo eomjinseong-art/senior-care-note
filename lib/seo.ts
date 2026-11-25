@@ -31,7 +31,7 @@ export function pageMetadata({
     description: text,
     keywords,
     alternates: { canonical: url },
-    openGraph: { type: "article", locale: "ko_KR", url, siteName: SITE_NAME, title: full, description: text },
-    twitter: { card: "summary", title: full, description: text },
+    openGraph: { type: "article", locale: "ko_KR", url, siteName: SITE_NAME, title: full, description: text, images: ["/opengraph-image"] },
+    twitter: { card: "summary_large_image", title: full, description: text, images: ["/opengraph-image"] },
   };
 }
